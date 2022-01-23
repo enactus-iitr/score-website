@@ -20,20 +20,18 @@ const SubjectTemplate =()=> {
        
         <div className={classes.subjects}>
             <div className={classes.subject}>
-                <img src={imagephy}/>
+                <img src={imagephy} alt=''/>
             </div>
             <div className={classes.subject}>
-                <img src={imageche}/>
+                <img src={imageche} alt=''/>
             </div>
             <div className={classes.subject}>
-                <img src={imagemat}/>
+                <img src={imagemat} alt=''/>
             </div>
             
         </div>
 
-        <div className={classes.yellowbar}>
-           
-           </div>
+        
     </div>
 }
 

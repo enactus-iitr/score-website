@@ -1,5 +1,5 @@
 import { makeStyles} from "@material-ui/core";
-import { colors } from '../../../styles/colors';
+import { colors } from '../../styles/colors';
 
 
 const UseStyles= makeStyles({
@@ -45,13 +45,14 @@ const UseStyles= makeStyles({
         backgroundColor:colors.lightblue,
         width:'9rem',
         height:'9rem',
-        paddingTop:'1.3rem',
+        paddingTop:'1.2rem',
         borderRadius:'1rem',
         // paddingLeft:'1.7rem',
         marginRight: '1rem',
         marginTop: '1rem',
         display:'flex',
-        justifyContent:'center'
+        justifyContent:'center',
+        paddingBottom: '0.2rem'
 
    }
 
