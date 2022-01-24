@@ -3,7 +3,6 @@ import useStyles from './style.js'
 import {Box, MenuItem, FormControl, Select } from '@material-ui/core';
 import { Subject } from "@material-ui/icons";
 import Image  from "./img/phyvector.svg";
-import colors from '../styles/colors';
 
 export default function SubjectHead() {
 
@@ -16,11 +15,11 @@ export default function SubjectHead() {
   const classes = useStyles()
 
   return (
-    <div className={classes.container}>
-      <div className={classes.Head_left}>
-        <p className={classes.class}>11th Class</p>
-        <h1 className={classes.subjectname}>Physics</h1>
-        <p className={classes.subjectcontent}>
+    <div className={classes.subjectHeadContainer}>
+      <div className={classes.subjectHeadLeft}>
+        <p className={classes.subjectHeadClass}>11th Class</p>
+        <h1 className={classes.subjectHeadName}>Physics</h1>
+        <p className={classes.subjectHeadContent}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
           voluptatum exercitationem vel? Aspernatur eveniet ut repellat,
           perspiciatis inventore, consequuntur, quis ea nemo commodi tenetur
@@ -30,17 +29,17 @@ export default function SubjectHead() {
           voluptates.
         </p>
       </div>
-      <div className={classes.Head_right}>
+      <div className={classes.subjectHeadRight}>
         
-      <div className={classes.Head_right_top}>
-        <p className={classes.selectsubject}>Switch to different subject : </p>
-        <FormControl className={classes.dropdown}>
+      <div className={classes.subjectHeadRightTop}>
+        <p className={classes.subjectHeadSelectSubject}>Switch to different subject : </p>
+        <FormControl className={classes.subjectHeadDropdown}>
         <Select
           value={subject}
           onChange={handleChange}
           displayEmpty
           // inputProps={{ 'aria-label': 'Without label' }}
-          className={classes.dropdown_option}
+          className={classes.subjectHeadDropdownOption}
         >
           <MenuItem value="">
           <em>Subject</em>
@@ -52,8 +51,8 @@ export default function SubjectHead() {
         </Select>
       </FormControl>
       </div>
-      <div className={classes.Head_right_bottom}>
-      <img  className={classes.Image1} src={Image} alt="" />
+      <div className={classes.subjectHeadRightbottom}>
+      <img  className={classes.subjectHeadImage} src={Image} alt="" />
       </div>
       </div>
     </div>

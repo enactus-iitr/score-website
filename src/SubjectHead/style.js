@@ -1,26 +1,25 @@
 import { makeStyles } from '@material-ui/core/styles';
-import colors from '../styles/colors';
+import {colors} from '../styles/colors';
 
 const useStyles = makeStyles({
     body:{ 
         fontSize:"62.5%", 
     },
-    container: {
-        // background:colors.blue,
-        background: '#191C4D',
+    subjectHeadContainer: {
+        background:colors.blue,
         width: '100%',
         height: '37.56rem',
         display:'flex',
         flexDirection: 'row',
 
   },
-  Head_left:{
+  subjectHeadLeft:{
       display: 'flex',
       flexDirection: 'column',
       width: '50%',
       paddingLeft: '10.50rem',
   },
-  class:{
+  subjectHeadClass:{
     width: '14.375rem',
     height: '3.75rem',
     marginTop: '4.125rem',
@@ -32,7 +31,7 @@ const useStyles = makeStyles({
     letterSpacing:'0.03em',
     color:'#FFFFFF',
   },
-  subjectname:{
+  subjectHeadName:{
     width: '32.25rem',
     height: '11.31rem',
     marginTop: '0.5rem',
@@ -42,9 +41,9 @@ const useStyles = makeStyles({
     fontSize: '9rem',
     lineHeight: '11.31rem',
     letterSpacing: '0.03em',
-    color: '#FFC220',
+    color: colors.yellow,
   },
-  subjectcontent:{
+  subjectHeadContent:{
     width: "39.62rem",
     height: "13.5rem",
     fontFamily: "Roboto",
@@ -58,19 +57,19 @@ const useStyles = makeStyles({
     letterSpacing: "0.03em",
     color: "#FFFFFF"
   },
-  Head_right:{
+  subjectHeadRight:{
     display: 'flex',
     flexDirection: 'column',
     width: '50%',
     paddingRight:'10.50rem',
   },
-  Head_right_top:{
+  subjectHeadRightTop:{
     display: 'flex',
     flexDirection: 'row',
     marginTop: "4.937rem",
     alignSelf:"flex-end",
   },
-  selectsubject:{
+  subjectHeadSelectSubject:{
     display:"block",
     width: "18.187rem",
     height: "1.75rem",
@@ -81,15 +80,15 @@ const useStyles = makeStyles({
     lineHeight: "1.75rem",
     color: "#FFFFFF",
   },
-  dropdown:{
+  subjectHeadDropdown:{
     width: "10.437rem",
     height: "2.562rem",
     marginLeft:"1rem",
     marginTop:'-0.5rem',
-    background: "#2D3170",
+    background: "#313576",
     borderRadius: "0.625rem",
   },
-  dropdown_option:{
+  subjectHeadDropdownOption:{
     width: "6.25rem",
     height: "1.375rem",
     left: "1.75rem",
@@ -100,7 +99,7 @@ const useStyles = makeStyles({
     fontSize: "1rem",
     color: "white",
   },
-  Head_right_bottom:{
+  subjectHeadRightbottom:{
     display:"inline-block",
     width: "22.687rem",
     height: "22.687rem",
@@ -110,7 +109,7 @@ const useStyles = makeStyles({
     borderRadius: "0.625rem",
     alignSelf:"flex-end",
   },
-  Image1:{
+  subjectHeadImage:{
     marginLeft:"3.7rem",
     marginTop:"3.7rem"
   }
