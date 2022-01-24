@@ -16,7 +16,7 @@ export default makeStyles((theme) => ({
             height: '110vh',
         },
     },
-    root: {
+    scorePage: {
         marginTop: '5%',
         marginLeft: '7%',
         marginBottom:'8%',
@@ -27,13 +27,13 @@ export default makeStyles((theme) => ({
             marginTop:'14%'
         },
     },
-    root1: {
+    enactTab: {
         [theme.breakpoints.up('sm')]: {
-            width: '100vw',
+            width: '100%',
             height: '55vh'
         },
         [theme.breakpoints.up('md')]: {
-            width: '100vw',
+            width: '100%',
             height: '110vh'
         },
     },
@@ -49,7 +49,7 @@ export default makeStyles((theme) => ({
             marginBottom: '-0.5%',
         },
     },
-    iit: {
+    iitHead: {
         fontSize:'4rem',
         fontFamily: 'Source Sans Pro',
         fontStyle: 'normal',
