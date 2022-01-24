@@ -1,38 +1,38 @@
-import React from 'react'
-import UseStyles from './styles'
-import imagephy from './Group 151physics.svg'
-import imagemat from './Group 153maths.svg'
-import imageche from './Group 152chemistry.svg'
+import React from "react";
+import useStyles from "./styles";
+import imagephy from "./Group 151physics.svg";
+import imagemat from "./Group 153maths.svg";
+import imageche from "./Group 152chemistry.svg";
 
-const SubjectTemplate =()=> {
+const SubjectTemplate = () => {
+  const classes = useStyles();
 
-    const classes=UseStyles()
+  return (
+    <div className={classes.mainbox}>
+      <h1 className={classes.heading}>
+        {" "}
+        11<span style={{ fontSize: "64px" }}>th</span> Class
+      </h1>
+      <p className={classes.para}>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s. the industry's standard dummy text ever since the
+        1500s.
+      </p>
 
-
-    return <div className={classes.some}>
-        <h1 className={classes.heading}> 11th Class</h1>
-        <p style={{marginTop:'10px'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-            industry's standard dummy text ever since the 1500s. the industry's standard dummy text ever since
-             the 1500s.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-             has been the industry's standard dummy text ever since the 1500s. the industry's standard dummy 
-             text ever since the 1500s.</p>
-
-       
-        <div className={classes.subjects}>
-            <div className={classes.subject}>
-                <img src={imagephy} alt=''/>
-            </div>
-            <div className={classes.subject}>
-                <img src={imageche} alt=''/>
-            </div>
-            <div className={classes.subject}>
-                <img src={imagemat} alt=''/>
-            </div>
-            
+      <div className={classes.subjects}>
+        <div className={classes.subject}>
+          <img src={imagephy} alt="physics" />
         </div>
-
-        
+        <div className={classes.subject}>
+          <img src={imageche} alt="chemistry" />
+        </div>
+        <div className={classes.subject}>
+          <img src={imagemat} alt="math" />
+        </div>
+      </div>
     </div>
-}
+  );
+};
 
 export default SubjectTemplate;

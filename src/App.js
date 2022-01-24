@@ -1,7 +1,7 @@
 import './App.css'
 import Home from './pages/Home'
 import { Route, Switch } from 'react-router'
-import SubjectTemplate from './components/Subjects/Subjecttemplate'
+import SubjectTemplate from './components/Subjects/SubjectTemplate'
 
 function App () {
   return (
