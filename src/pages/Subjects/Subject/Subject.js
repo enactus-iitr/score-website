@@ -32,7 +32,9 @@ export default function Subject () {
         cls={standard}
         handleChangeSubject={handleChangeSubject}
       />
-      <ChapterList />
+      <ChapterList sub={subject}
+        cls={standard} />
     </BasicLayout>
   )
 }
+

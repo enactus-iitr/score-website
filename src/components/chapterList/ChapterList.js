@@ -144,7 +144,6 @@ const ChapterList = (props) => {
             {props.cls === '12' && props.sub === 'physics' && phy12maped}
             {props.cls === '12' && props.sub === 'chemistry' && chem12maped}
             {props.cls === '12' && props.sub === 'maths' && math12maped}
-           
           </>
         )
       case 'Jee Advanced':
@@ -152,7 +151,7 @@ const ChapterList = (props) => {
 
           <>
             <Typography className={classes.subheading}>
-              Select the chapter you want to study for Jee Main :
+              Select the chapter you want to study for Jee Advanced :
             </Typography>
             {props.cls === '11' && props.sub === 'physics' && phy11maped}
             {props.cls === '11' && props.sub === 'chemistry' && chem11maped}
@@ -167,7 +166,7 @@ const ChapterList = (props) => {
 
           <>
             <Typography className={classes.subheading}>
-              Select the chapter you want to study for Jee Main :
+              Select the chapter you want to study for Boards :
             </Typography>
             {props.cls === '11' && props.sub === 'physics' && phy11maped}
             {props.cls === '11' && props.sub === 'chemistry' && chem11maped}

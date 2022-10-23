@@ -21,10 +21,7 @@ const Home = () => {
             IIT Roorkee
           </Typography>
           <p className={classes.desc}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          JEE Advanced is perhaps India's most prestigious and difficult engineering entrance examination. Score aims to give an edge to aspirants by providing material curated from high-quality sources. Click on the button below to give a boost to your preparation!
           </p>
           <Link to='/course' style={{ textDecoration: 'none' }}>
             <Button
@@ -51,10 +48,7 @@ const Home = () => {
             IIT Roorkee
           </Typography>
           <Typography className={classes.descEnactus}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, uat.{' '}
+          Enactus is an international non-profit organization that believes in investing in students who take entrepreneurial action for others, thus creating a better world for us all. Enactus works to promote social entrepreneurship among young minds in educational institutes all over the globe. We are the IIT-Roorkee Chapter of Enactus. We are currently working on various projects which aim to have a high impact on the community.{' '}
           </Typography>
           {/*<Button className={classes.btnKnow}><span className={classes.btnText} style={{ color: '#191C4D' }}>Know More</span></Button>*/}
         </Grid>

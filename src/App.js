@@ -11,6 +11,7 @@ import About from './pages/About/About'
 import Course from './pages/Subjects/Course/Course'
 import Subject from './pages/Subjects/Subject/Subject'
 import Lecture from './pages/Subjects/Lecture/Lecture'
+import SubjectChapter from './components/SubjectChapter/SubjectChapter'
 
 function App () {
   return (
@@ -20,6 +21,7 @@ function App () {
           <Route path='/' element={<Homepage />} />
           <Route path='/course' element={<Course />} />
           <Route path='/subject/:cls/:sub' element={<Subject />} />
+          <Route path='/subjectchapter/:cls/:sub/:chap' element={<SubjectChapter  />} />
           <Route path='/lecture/:cls/:sub/:exam/:chap' element={<Lecture />} />
           <Route path='/about' element={<About />} />
           <Route path='*' element={<Navigate to='/' />} />
