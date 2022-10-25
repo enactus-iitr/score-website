@@ -1,6 +1,6 @@
 {
   "name": "score-website",
-  "homepage": "https://enactus-iitr.github.io/score-website/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
